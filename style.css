@@ -1,6 +1,10 @@
 body {
-    background-image: url(https://github.com/geosjobby/geosjobby.github.io/blob/main/backroundindex.gif?raw=true);
+    background-image: url(https://images-ext-2.discordapp.net/external/4W4Jsn1yNCGbqb9M2K8KWKITtJ_Wgtv3LmNYfqtfRyU/https/im6.ezgif.com/tmp/ezgif-6-4413943736aa.gif?width=612&height=612);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+
+h1 {
+    text-align: center;
 }
