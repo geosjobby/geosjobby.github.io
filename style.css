@@ -3,5 +3,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
 
+h1 {
+    box-shadow: inset 50 0 0 0 yellow;
+    transition: 0.3s;
+    outline: none;
 }
