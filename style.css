@@ -10,3 +10,8 @@ h1 {
     transition: 0.3s;
     outline: none;
 }
+.img-home {
+    width: 1200px;
+    position: absolute;
+    right: 115px;
+}
