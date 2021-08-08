@@ -16,8 +16,8 @@ html {
 #bg {
     /*background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 linear-gradient(to top right, #594e87, #58466f, #8c5470, #E05352, #C57A6E, #F59B96, #F27684, #EC586D, #D34052, #C53F4A, #E77A64);*/
-    background: rgb(255, 255, 255);
-    background: linear-gradient(to top right, rgba(255,255,255,255), rgb(20, 27, 85));
+    background: rgb(67, 56, 223);
+    background: linear-gradient(to top right, rgba(67,56,223,1), rgb(20, 27, 85));
     position: absolute;
     top: 0;
     left: 0;
