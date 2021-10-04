@@ -1,2 +1,3 @@
 # geosjobby.github.io
-repository for webpage...
+Portfolio website for my social medias and programming projects 
+
