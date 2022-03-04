@@ -5,8 +5,7 @@
  
 # About my Site
 *My site is just my own portfolio that ive been working on using **Html**, **Javascript** and **CSS**.*
-<p style="text-align:left;"><img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Html.png?raw=true" alt="Html Logo" style="height: 60px; width:65px;"></p>
- > 
+<p style="text-align:left;"><img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Html.png?raw=true" alt="Html Logo" style="height: 100px; width:150px;"></p>
  
  
  
