@@ -5,8 +5,10 @@
  
 # About my Site
 *My site is just my own portfolio that ive been working on using **Html**, **Javascript** and **CSS**.*
-<p style="text-align:left;"><img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Html.png?raw=true" alt="Html Logo" style="height: 150px; width:175px;"></p>
-<p style="text-align:center;"><img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Javascript.png?raw=true" alt="Javascript Logo" style="height: 150px; width:175px;"></p>
+<p align='left'>
+    <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Html.png?raw=true><style="height: 150px; width:175px;">">
+  <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/CSS.png?raw=true><style="height: 150px; width:175px;">">
+</p>
 
  
  
