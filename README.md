@@ -13,7 +13,11 @@
  
   **Here's all the pages of my Site!**
   
-   * [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues)
+   * [Homepage](https://geosjobby.xyz)
+   * [Socials](https://geosjobby.xyz/Socials)
+   * [Aboutme](https://geosjobby.xyz/AboutMe)
+   * [Discord](https://geosjobby.xyz/Discord)
+   * [Contact](https://geosjobby.xyz/Contact)
 
  
  
