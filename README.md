@@ -10,8 +10,8 @@
    <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/CSS.png?raw=true" alt="CSS logo" style="height: 135px; width:145px;">
    <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Javascript.png?raw=true" alt="Javascript Logo" style="height: 150px; width:175px;">
   <hr width=100%>
-  <div>
-  *Here's all the pages of my Site!*</div>
+ 
+  *Here's all the pages of my Site!*
   
   * [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues)
 
