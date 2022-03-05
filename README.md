@@ -11,7 +11,7 @@
    <img src="https://github.com/geosjobby/Geosjobby.xyz/blob/main/pictures/Javascript.png?raw=true" alt="Javascript Logo" style="height: 150px; width:175px;">
   <hr width=100%>
  
-  *Here's all the pages of my Site!*
+    *Here's all the pages of my Site!*
   
   * [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues)
 
