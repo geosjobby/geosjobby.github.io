@@ -12,7 +12,7 @@
   <hr width=100%>
   <div>
   *Here's all the pages of my Site!*</div>
-  *[Home](https://github.com/microsoft/vscode/issues)
+  * [Home](https://github.com/microsoft/vscode/issues)
 
  
  
