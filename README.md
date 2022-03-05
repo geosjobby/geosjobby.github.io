@@ -13,7 +13,7 @@
  
   **Here's all the pages of my Site!**
   
-  * [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues)
+   * [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues)
 
  
  
