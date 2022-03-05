@@ -20,10 +20,10 @@
    * [Contact](https://geosjobby.xyz/Contact)
 
 # Issues                                                                   
-*if you discover any issues, send a pull request or contact me on discord* 
-```
+*if you discover any issues, send a pull request or contact me on **Discord**
+``
 Geosjobbydooo#0631
-```
+``
                                                                            
 
  
