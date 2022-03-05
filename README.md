@@ -20,7 +20,7 @@
    * [Contact](https://geosjobby.xyz/Contact)
 
 # Issues                                                                   
-*if you discover any issues, Send a pull request or contact me on Discord
+*if you discover any issues, Send a pull request or contact me on Discord*
 
 ```
 Geosjobbydooo#0631
