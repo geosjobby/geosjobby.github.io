@@ -19,9 +19,12 @@
    * [Discord](https://geosjobby.xyz/Discord)
    * [Contact](https://geosjobby.xyz/Contact)
 
-# Issues                                                                   ```
-*if you discover any issues, send a pull request or contact me on discord* Geosjobbydooo#0631
-                                                                           ```
+# Issues                                                                   
+*if you discover any issues, send a pull request or contact me on discord* 
+```
+Geosjobbydooo#0631
+```
+                                                                           
 
  
  
