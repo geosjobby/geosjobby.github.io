@@ -41,12 +41,28 @@ html {
     flex-direction: column;
 }
 
-.info ul,
+.info ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #eee;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
 .socials ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     color: #eee;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
 }
 
 h1 {
@@ -64,12 +80,37 @@ h1 {
                 0 5px 10px rgba(0,0,0,.35),
                 0 10px 10px rgba(0,0,0,.3),
                 0 20px 20px rgba(0,0,0,.25);
+                animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
 }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
-.info ul li {
-    margin: 0 18px;
-    letter-spacing: 1px;
-}
 
 .socials ul {
     margin-top: 30px;
@@ -125,31 +166,11 @@ h1 {
         width: 45px;
         height: 45px;
     }
-
-    .info ul li {
-        margin: 0 9px;
-        letter-spacing: 1px;
-        font-size: 14px;
     }
-}
-
-@media (max-width: 460px) {
-    .info ul li {
-        margin: 0 7px;
-        letter-spacing: -0.1px;
-        font-size: 13px;
-        font-weight: 100;
-    }
-}
 
 @media (max-width: 350px) {
     h1 {
         font-size: 38px;
-    }
-
-    .info ul {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .socials ul li {
