@@ -64,7 +64,6 @@ html {
     -o-animation: fadeIn linear 2s;
     -ms-animation: fadeIn linear 2s;
 }
-
 h1 {
     font-size: 100px;
     color: #eee;   
@@ -115,7 +114,10 @@ h1 {
 .socials ul {
     margin-top: 30px;
 }
-
+.navbar a.active {
+    background-color: rgb(69, 67, 67);
+    color: white;
+}
 .socials ul li {
     color: #eee;
     margin: 0 15px;
@@ -130,7 +132,13 @@ h1 {
     transition-duration: 0.2s;
     background: rgba(0,0,0,0.2);
 }
-
+.navbar {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
 .socials ul li:hover {
     transform: scale(1.2);
 }
@@ -178,5 +186,12 @@ h1 {
         margin: 0 5px;
         width: 35px;
         height: 35px;
+    }
+    iframe {
+        animation: fadeIn linear 2s;
+        -webkit-animation: fadeIn linear 2s;
+        -moz-animation: fadeIn linear 2s;
+        -o-animation: fadeIn linear 2s;
+        -ms-animation: fadeIn linear 2s;
     }
 }

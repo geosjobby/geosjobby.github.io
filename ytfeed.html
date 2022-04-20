@@ -26,12 +26,6 @@
   color: black;
 }
 
-/* Active/current link */
-.navbar a.active {
-  background-color: #666;
-  color: white;
-}
-
 @media (max-width: 767px) {
         .navbar img {
           display: none;
@@ -43,7 +37,36 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-
+}
+.main:before {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  width: 560px;
+  height: 315px;
+  -webkit-box-shadow: 0 0 0 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 0 7px rgba(0,0,0,0.75);
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.75);
+/*   box-shadow: 0px 0px 61px 6px rgba(0,0,0,0.68); */
+  pointer-events: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  animation: fadeIn linear 2s;
+        -webkit-animation: fadeIn linear 2s;
+        -moz-animation: fadeIn linear 2s;
+        -o-animation: fadeIn linear 2s;
+        -ms-animation: fadeIn linear 2s;
+}
+.latestvideo {
+  -webkit-box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+  animation: fadeIn linear 2s;
+        -webkit-animation: fadeIn linear 2s;
+        -moz-animation: fadeIn linear 2s;
+        -o-animation: fadeIn linear 2s;
+        -ms-animation: fadeIn linear 2s;
 }
 </style>
 
@@ -51,11 +74,11 @@
   <link rel="shortcut icon" type="images/png" href="https://github.com/geosjobby/geosjobby.github.io/blob/main/pictures/favicon.png?raw=true">
   <div class="navbar">
     <a href="/">Home</a>
-    <a target="_self" class="active" href="https://geosjobby.xyz/Socials" title="Socials">Socials</a>
+    <a target="_self" href="https://geosjobby.xyz/Socials" title="Socials">Socials</a>
     <a target="_self" href="/AboutMe" title="About me">About Me</a>
     <a target="_self" href="/Discord">Discord</a>
     <a target="_self" href="/Contact">Contact me</a>
-    <a target="_self" href="/ytfeed">YtFeed</a>
+    <a target="_self" class="active" href="/ytfeed">YtFeed</a>
     <a target="_blank" href="https://Ultimatesoundboard.xyz">Ultimatesoundboard</a>
     <a target="_blank" href="https://github.com/geosjobby">Github</a>
     <img src="pictures/Geos Logo Circular.png" style="width:100px;height: 100px;">
@@ -64,33 +87,23 @@
         <title>Geosjobbydo's Webpage</title>
         <meta content="Geosjobbydo's Webpage" property="og:title">
         <meta content="Geosjobbydo's Webpage" property="og:site_name">
-        <meta content="Come see my socials" property="og:description">
+        <meta content="Come see my YtFeed page!" property="og:description">
         <meta content="https://cdn.discordapp.com/avatars/766728576065863710/a_98c3df663b7ed98ba95e4b8b722c1a80.gif?size=128" property="og:image">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" defer href="css/stylesheet.css">
+        <script defer type="text/javascript" src="js/script.js"></script>
         <script src="https://kit.fontawesome.com/f44d8d87b5.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@472&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
 
      <body>
         <div id="bg"></div>
         <div class="main">
-          <h1>Here you can find my socials!</h1>
-          <div class="info">
+          <iframe class="latestvideo" title="Latest Video" width="560" height="315" src="https://www.youtube.com/embed/kCt3l0zLG6k" frameborder="0" allowfullscreen></iframe></div>
             <ul>
             </ul>
+            <div>
           </div>
-          <div class="socials">
-            <ul>
-              <a target="_blank" href="https://www.youtube.com/channel/UC0xHLvS3_DFce4JCQl1EdfA" title="Youtube"><li><i class="fa-brands fa-youtube"></i></i></li></a>
-              <a target="_blank" href="https://www.instagram.com/geosjobby/" title="Instagram"><li><i class="fa-brands fa-instagram"></i></li></a>
-              <a target="_blank" href="https://twitter.com/geosjobby" title="Twitter"><li><i class="fa-brands fa-twitter"></i></li></a>
-              <a target="_blank" href="https://twitch.tv/geosjobbydo" title="Twitch"><li><i class="fa-brands fa-twitch"></i></li></a>
-              <a target="_blank" href="https://namemc.com/profile/geosjobbydo" title="NameMC Profile"><li><i class="fa-solid fa-cube"></i></li></a>
-            </ul>
-          </div>
-        </div>
         <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
           new Crate({
               server: '899007693585514586', // Geosjobbydo's Community Server

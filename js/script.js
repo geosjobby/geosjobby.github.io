@@ -139,4 +139,8 @@ function onResize() {
     clearTimeout(refreshTimeout),
     onLoad();
 }
+function a() {
+  navigator.clipboard.writeText('Geosjobbydooo#0631')
+  window.alert("Copied 'Geosjobbydooo#0631' to Clipboard!");
+  }
 (window.onload = onLoad), (window.onresize = onResize);
