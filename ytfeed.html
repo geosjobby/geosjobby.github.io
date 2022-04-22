@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
   .navbar {
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0);
@@ -68,6 +69,32 @@
         -o-animation: fadeIn linear 2s;
         -ms-animation: fadeIn linear 2s;
 }
+ul {
+  text-shadow: 0 1px 0 #999, 
+                0 2px 0 #999999,
+                0 3px 0 #888,
+                0 4px 0 #898989,
+                0 5px 0 #777,
+                0 6px 1px rgba(0,0,0,.2),
+                0 0 5px rgba(0,0,0,.2),
+                0 1px 3px rgba(0,0,0,.4),
+                0 3px 5px rgba(0,0,0,.3),
+                0 5px 10px rgba(0,0,0,.35),
+                0 10px 10px rgba(0,0,0,.3),
+                0 20px 20px rgba(0,0,0,.25);
+  font-family: "Oswald", Helvetica, sans-serif;
+  display: flex;
+  letter-spacing: 1px;
+  font-size: 100px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #eee;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
 </style>
 
 <html lang="en" dir="ltr">
@@ -93,17 +120,16 @@
         <link rel="stylesheet" defer href="css/stylesheet.css">
         <script defer type="text/javascript" src="js/script.js"></script>
         <script src="https://kit.fontawesome.com/f44d8d87b5.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+        <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@472&display=swap" rel="stylesheet">
     </head>
-
      <body>
         <div id="bg"></div>
+        <div id="Latestvideotext">
+          <ul>Latest Video</ul>
         <div class="main">
-          <iframe class="latestvideo" title="Latest Video" width="560" height="315" src="https://www.youtube.com/embed/kCt3l0zLG6k" frameborder="0" allowfullscreen></iframe></div>
-            <ul>
-            </ul>
-            <div>
-          </div>
+        <iframe class="latestvideo" title="Latest Video" width="560" height="315" src="https://www.youtube.com/embed/kCt3l0zLG6k" frameborder="0" allowfullscreen></iframe></div>
         <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
           new Crate({
               server: '899007693585514586', // Geosjobbydo's Community Server
