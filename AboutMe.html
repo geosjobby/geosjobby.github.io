@@ -53,6 +53,17 @@
   letter-spacing: 1px;
   font-size: larger;
 }
+.box {
+        background-color: rgb(44, 23, 208);
+        border: black solid 1px;
+        border-radius: 100px;
+        padding: 10px;
+        box-sizing: content-box;
+    }
+    .box:hover {
+        background-color: rgb(37, 37, 199);
+        border-style: groove;
+    }
 
 </style>
 <html lang="en" dir="ltr">
@@ -60,10 +71,10 @@
   <div class="navbar">
     <a href="/">Home</a>
     <a target="_self" href="/Socials" title="Socials">Socials</a>
-    <a target="_self" href="/AboutMe" title="About me">About Me</a>
+    <a target="_self" class="active" href="/AboutMe" title="About me">About Me</a>
     <a target="_self" href="/Discord">Discord</a>
     <a target="_self" href="/Contact">Contact me</a>
-    <a target="_self" class="active" href="/ytfeed">YtFeed</a>
+    <a target="_self" href="/ytfeed">YtFeed</a>
     <a target="_blank" href="https://Ultimatesoundboard.xyz">Ultimatesoundboard</a>
     <a target="_blank" href="https://github.com/geosjobby">Github</a>
     <img src="pictures/Geos Logo Circular.png" style="width:100px;height: 100px;">
@@ -88,9 +99,10 @@
       <div class="info">
         <ul>
         <div>
-        <p>Hi, So i am Geosjobbydo and i recently (i mean 2 years ago 😂) started to do coding, it was very fun!</p>
-        <p>i stopped for a while and within the last 5 months i've been studying various languages including,</p>
-        <p>Html,Css,Javascript,Django,Markdown and python</p>
+          <div class="box">
+          <p>Hi, So i am Geosjobbydo and i recently (i mean 2 years ago 😂) started to do coding, it was very fun!</p>
+          <p>i stopped for a while and within the last 5 months i've been studying various languages including,</p>
+          <p>Html,Css,Javascript,Django,Markdown and python</p></div>
         </div>
         </ul>
       </div>
