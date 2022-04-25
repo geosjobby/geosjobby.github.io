@@ -143,4 +143,16 @@ function a() {
   navigator.clipboard.writeText('Geosjobbydooo#0631')
   window.alert("Copied 'Geosjobbydooo#0631' to Clipboard!");
   }
+const APIKey = 'AIzaSyD4VdKsvOgxR1jdt6xTxNK67Tay5wnRytY';
+const Userid = 'UC0xHLvS3_DFce4JCQl1EdfA';
+const subscriberCount= document.getElementById('subscriberCount');
+
+fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${Userid}&key=${APIKey}`)
+.then(response => {
+    return response.json()
+})
+.then(data => {
+    console.log(data);
+    subscriberCount.innerHTML = data["items"][0].statistics.subscriberCount;
+  })
 (window.onload = onLoad), (window.onresize = onResize);
