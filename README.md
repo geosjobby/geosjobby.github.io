@@ -18,6 +18,7 @@
    * [Aboutme](https://geosjobby.xyz/AboutMe)
    * [Discord](https://geosjobby.xyz/Discord)
    * [Contact](https://geosjobby.xyz/Contact)
+   * [Contact](https://geosjobby.xyz/ytfeed)
 
 # Issues                                                                   
 *if you discover any issues, Send a pull request or contact me on Discord*
