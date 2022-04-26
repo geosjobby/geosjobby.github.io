@@ -153,6 +153,6 @@ fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${Useri
 })
 .then(data => {
     console.log(data);
-    subscriberCount.innerHTML = data["items"][0].statistics.subscriberCount;
+    subscriberCount.innerHTML = data["items"][0].statistics.subscriberCount + " Subscribers";
   })
 (window.onload = onLoad), (window.onresize = onResize);
