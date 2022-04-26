@@ -95,12 +95,6 @@ ul {
     -o-animation: fadeIn linear 2s;
     -ms-animation: fadeIn linear 2s;
 }
-hr {
-    border-color: rgb(0, 27, 230);
-    height: 1px;
-    width: 100%;
-    position: relative;
-    }
     #subscriberCount {
       font-family: poppins;
       font-size: 30px;
@@ -117,7 +111,6 @@ hr {
     margin-left: 20px;
     margin-top : 17px;
     box-sizing: content-box;
-    border-radius: 6px;
     border: rgb(255, 255, 255) solid 1px;
     border-style: groove;
     background-image: linear-gradient(to top, #cc181e, #b71a20, #a31b20, #8e1c20, #7a1c1f);
@@ -127,16 +120,16 @@ hr {
       border-color: rgb(0, 0, 0);
       color: rgb(0, 0, 0);
     }
-    i {
-      color: rgb(0, 0, 0);
+    hr {
+      width: 100%;
       justify-content: center;
       align-items: center;
-      float: right;
-      margin-top: 40px;
-
-    }
+      display: flex;
+      position: relative;
+      height: 1px;
+      color: #023072;
+      }
 </style>
-
 <html lang="en" dir="ltr">
   <link rel="shortcut icon" type="images/png" href="https://github.com/geosjobby/geosjobby.github.io/blob/main/pictures/favicon.png?raw=true">
   <div class="navbar">
@@ -171,6 +164,7 @@ hr {
           <br></br>
         <div class="main">
         <iframe class="latestvideo" title="Latest Video" width="560" height="315" src="https://www.youtube.com/embed/kCt3l0zLG6k" frameborder="0" allowfullscreen></iframe></div>
+        <hr width="100%" color #023072 height="10px">
         <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
           new Crate({
               server: '899007693585514586', // Geosjobbydo's Community Server
