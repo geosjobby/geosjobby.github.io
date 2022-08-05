@@ -20,9 +20,13 @@ html {
   --light-color: #292e85;
   }
   .container {
+    text-align: center;
     background: #191919;
     min-height: 100vh;
     font-family: Montserrat, sans-serif;
+  }
+  .container h1 {
+    padding-top: 25%;
   }
   a:hover {
     color: rgb(19, 101, 168);
