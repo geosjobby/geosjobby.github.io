@@ -1,5 +1,81 @@
 .MainLogo {
-    margin-top: 17%;
+    margin-top: 7%;
+  margin-left: 10px;
+  border-radius: 100px;
   width: 200px;
   height: 200px;
+  border: rgb(38, 37, 37) solid;
+  border-width: 6px;
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+  animation: pulse;
+  animation-duration: 2s;
+}
+.MainLogo:hover {
+  border: rgb(38, 37, 37) solid;
+  border-width: 6px;
+  border-style: outset;
+  -webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  border-radius: 100px;
+  border-width: 6px;
+  border-style: solid;
+}
+.sidenav {
+  background-color: black;
+  box-sizing: border-box;
+  border: aqua 5px solid;
+  float: right;
+}
+.maintitle {
+  animation: rubberBand;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+.continue {
+  background-color: blue;
+  border: aqua 1px solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 12px;
+
+}
+li {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: #eee;
+  animation: shakeX;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 20px;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
