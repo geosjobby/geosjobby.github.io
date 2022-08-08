@@ -38,9 +38,9 @@
 .continue {
   background-color: blue;
   border: aqua 1px solid;
-  box-sizing: border-box;
-  border-radius: 5px;
-
+  width: 200px;
+  margin-left: 46%;
+  margin-top: 25px;
 }
 li {
   display: flex;
